@@ -1,0 +1,19 @@
+{
+	"name": "Mbrt-Brunch-Boilerplate",
+	"description": "First boilerplate made from scratch by Mandelbrot Studio.",
+	"private": true,
+	"author": "Mbrt Studio",
+	"version": "0.0.1",
+	"repository": "",
+	"scripts": {
+		"start": "brunch watch --server",
+		"build": "brunch build --production"
+	},
+	"devDependencies": {
+		"auto-reload-brunch": "^2.7.1",
+		"brunch": "^2.10.17",
+		"jade-brunch": "^2.8.0",
+		"sass-brunch": "^2.10.8",
+		"uglify-js-brunch": "2.10"
+	}
+}

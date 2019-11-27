@@ -1,0 +1,12 @@
+/*Normalize*/
+// @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
+
+// Import libraries
+
+
+// Import your files
+@import 'global/vars';
+@import 'global/mixins';
+@import 'global/default';
+
+@import 'views/_home'
