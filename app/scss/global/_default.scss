@@ -4,11 +4,23 @@
 }
 
 body{
-	color: #dadada;
+	color: purple;
 	background-color: #202020;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, section, div, nav, ul, li, button{
 	margin: 0;
 	padding: 0;
+}
+
+.js-scroll-section{
+	height: 100vh;
+
+	&:nth-child(odd) {
+		background-color: pink;
+	}
+
+	&:nth-child(even) {
+		background-color: purple;
+	}
 }

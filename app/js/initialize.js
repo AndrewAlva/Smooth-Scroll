@@ -12,4 +12,7 @@ window.onload = function() {
     // Do something, remove preloader perhaps
     console.log("Page fully loaded.");
     console.log("Initialize.js");
+
+    // Init request animation frame
+    RAF.init();
 }
