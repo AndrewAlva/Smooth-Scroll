@@ -4,6 +4,9 @@
 # Brunch folder for temporary files.
 tmp/
 
+#npm package-lock
+# package-lock.json
+
 # OS or Editor folders
 .DS_Store
 .cache
