@@ -1,5 +1,9 @@
-# OG_Brunch
-My first brunch boilerplate created from scratch.
+# Smooth Scroll
+Smooth scroll code ready to implement on brunch projects, based on CodePen by Jesper Landberg, more interesting stuff on his [CodePen](https://codepen.io/ReGGae)
+
+
+## OG_Brunch
+This repo was created from OG_Brunch boilerplate. See more on [OG_Brunch repo](https://github.com/AndrewAlva/Smooth-Scroll)
 
 
 ## Development Environment
