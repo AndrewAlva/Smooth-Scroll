@@ -5,7 +5,7 @@
 tmp/
 
 #npm package-lock
-# package-lock.json
+package-lock.json
 
 # OS or Editor folders
 .DS_Store
