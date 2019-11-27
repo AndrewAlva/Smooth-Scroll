@@ -4,7 +4,7 @@
 }
 
 body{
-	color: purple;
+	color: #fff;
 	background-color: #202020;
 }
 
@@ -18,9 +18,11 @@ body, h1, h2, h3, h4, h5, h6, p, section, div, nav, ul, li, button{
 
 	&:nth-child(odd) {
 		background-color: pink;
+		*{color: purple;}
 	}
 
 	&:nth-child(even) {
 		background-color: purple;
+		*{color: pink;}
 	}
 }

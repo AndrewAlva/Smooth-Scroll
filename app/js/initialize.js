@@ -2,8 +2,11 @@
 // has been completely loaded and parsed,
 // without waiting for stylesheets, images, and
 // subframes to finish loading
+var lastSection;
+
 document.addEventListener('DOMContentLoaded', function() {
     // Do something
+    lastSection = document.getElementById('last-section');
 });
 
 
@@ -15,4 +18,7 @@ window.onload = function() {
 
     // Init request animation frame
     RAF.init();
+
+    var TestSmoothScroll = new SmoothScroll();
+    RAF.add(TestSmoothScroll)
 }
